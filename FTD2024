@@ -1,0 +1,64 @@
+## Day 1 (08/01/2024, Full-day)
+**Teacher**: Rémy Cazabet
+### Morning (9h-12h)
+* Lecture: [Network Analysis](http://cazabetremy.fr/Teaching/bitcoinClass/2024/Graphs_aggregatedFTD.pdf)
+* Exercises: [Networks with Gephi](http://cazabetremy.fr/Teaching/bitcoinClass/2024/gephi2-parts.pdf)
+
+### Afternoon (14h-17h)
+* Lecture: [Bitcoin as networks](http://cazabetremy.fr/Teaching/bitcoinClass/2024/Bitcoin-asNetwork.pdf)
+* Practice: [Exploring 2 days of Bitcoin](https://github.com/Yquetzal/Bitcoin-Datathon/blob/main/Entity_network_101.ipynb)
+
+-------
+
+## Day 2
+**Teacher**: Natkamon Tovanich
+
+-------
+
+## Day 3
+**Teacher**: Natkamon Tovanich
+-------
+
+## Day 4
+**Teacher**: Natkamon Tovanich
+-------
+
+## Day 5
+**Teacher**: Natkamon Tovanich
+
+------
+# Recommended Readings
+
+Network Analysis
+* [Network, Crowded and Markets](https://www.cs.cornell.edu/home/kleinber/networks-book/) by David Easley and Jon Kleinberg
+* [Network Science](http://networksciencebook.com/) by Albert-László Barabási
+* Courses from DataCamp: [Introduction to Network Analysis in Python](https://www.datacamp.com/courses/introduction-to-network-analysis-in-python) and then [Intermediate Network Analysis in Python](https://www.datacamp.com/courses/intermediate-network-analysis-in-python)
+
+Bitcoin
+* [Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf) by Satoshi Nakamoto
+* [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook) by Andreas Antonopoulos
+* [Bitcoin and Cryptocurrency Technologies](https://bitcoinbook.cs.princeton.edu/) by Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, and Steven Goldfeder
+
+
+------
+# Datasets
+### Here are some network datasets to play with:
+
+(Use right-click, download as, **file_name.graphml** )
+
+* [GOT](http://cazabetremy.fr/Teaching/CN2021/dataset/GOT.graphml): small network of interactions between caracters in the Game of Thrones Book series
+* [airports](http://cazabetremy.fr/Teaching/CN2021/dataset/airportsAndCoord.graphml): medium network of airline connetions between airports
+
+------
+# Tools
+### Gephi
+Gephi is a software for basic graph manipulation and visualization. Although you can't do much in term of graph analytics, it is convenient to explore and visualize graphs of small to medium size ( < 1000 nodes). 
+It can be donwloaded there : [Gephi](http://gephi.org). 
+
+### Python
+Most of the experiments are done in python. If you're not familiar with this language, there are numerous tutorials on the web. A good one for instance is from w3schools. If you want to be all set-up for experiments, here is a list of packages we will use. Note that if you want, it can be simpler to use an online tool such as [google colab](https://colab.research.google.com)
+* networkx. Generic network analysis
+* notebook. Jupyter notebook
+* cdlib. Community detection
+* scikit-learn. Machine learning/Data mining
+* seaborn. ploting library
